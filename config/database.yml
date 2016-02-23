@@ -82,4 +82,4 @@ production:
   <<: *default
   database: rails_test_production
   username: rails_test
-  password: <%= ENV['RAILS_TEST_DATABASE_PASSWORD'] %>
+  password: #<%= ENV['RAILS_TEST_DATABASE_PASSWORD'] %>
