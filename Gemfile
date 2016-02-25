@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rake', '10.4.2'
 gem 'bcrypt', '3.1.10'
 gem 'rails-i18n', '4.0.6'
+gem 'unicorn'
+gem 'foreman'
 
 
 # Use ActiveModel has_secure_password
